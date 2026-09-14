@@ -1,6 +1,6 @@
 # BOOK STORE
 Book Store Project 
-'this project was deplotment test'
+'this project was deployment test'
 
 ## Tech
 Python, Django, PostgreSQL, Bootstrap
