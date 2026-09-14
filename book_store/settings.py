@@ -66,11 +66,9 @@ WSGI_APPLICATION = 'book_store.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
         'default': dj_database_url.config(
             default=f"sqlite:///{os.path.join(BASE_DIR, 'db.sqlite3')}"
         )
-    }
 }
 
 
