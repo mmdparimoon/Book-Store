@@ -1,11 +1,11 @@
 # BOOK STORE
 Book Store Project 
-
+'this project was deplotment test'
 
 ## Tech
 Python, Django, PostgreSQL, Bootstrap
 
-## LIVE Ddemo
+## LIVE demo
 [https://project-name.up.railway.app](https://book-store-production-e44d.up.railway.app/)
 
 ## LOCAL Instaliaion
