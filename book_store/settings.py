@@ -18,7 +18,9 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['*']
 
-
+RAILWAY_DOMAIN = os.environ.get('RAILWAY_PUBLIC_DOMAIN')
+if RAILWAY_DOMAIN:
+    CSRF_TRUSTED_ORIGINS = [f'https://{RAILWAY_DOMAIN}']
 # Application definition
 
 INSTALLED_APPS = [
