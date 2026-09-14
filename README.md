@@ -82,4 +82,4 @@ Book-Store/
 
 ## نویسنده
 
-Mohammad Parimoon — [لینک گیت‌هاب یا لینکدین]
+Mohammad Parimoon 
